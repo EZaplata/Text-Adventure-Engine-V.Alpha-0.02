@@ -1,2 +1,2 @@
-Text-Adventure-Engine-V.Alpha-0.2
+Text-Adventure-Engine-V.Alpha-0.02
 =================================

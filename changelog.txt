@@ -9,4 +9,5 @@ Work started on fight simulation
 
 --Coming Soon--
 SDL audio output
+Basic item ggenerator
 

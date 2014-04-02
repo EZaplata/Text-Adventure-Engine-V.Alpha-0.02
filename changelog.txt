@@ -1,0 +1,12 @@
+Changelog:
+
+Ver.0.01
+Intital realese
+
+Ver 0.02
+Improvement and bug fix in game.c
+Work started on fight simulation
+
+--Coming Soon--
+SDL audio output
+

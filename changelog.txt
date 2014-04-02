@@ -4,10 +4,15 @@ Ver.0.01
 Intital realese
 
 Ver 0.02
-Improvement and bug fix in game.c
-Work started on fight simulation
+Improvements and bug fixes in game.c
+Work started on simple fight simulation intelligence.c
+
+Ver 0.03
+Nothing for now
 
 --Coming Soon--
 SDL audio output
-Basic item ggenerator
+Possibly SDL keyboard I/O
+Basic item generator itemgenerator.c
+
 

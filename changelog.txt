@@ -11,6 +11,7 @@ Ver 0.03 //Coming out on monday 7/4/14
 Nothing for now
 
 --Coming Soon-- 
+SDL audio output
 Possibly SDL keyboard I/O
 Basic item generator itemgenerator.c
 Character levels

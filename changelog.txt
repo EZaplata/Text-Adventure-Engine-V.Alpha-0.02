@@ -15,6 +15,7 @@ SDL audio output
 Possibly SDL keyboard I/O
 Character levels
 Saving stats and items
+Multiplayer option
 
 
 

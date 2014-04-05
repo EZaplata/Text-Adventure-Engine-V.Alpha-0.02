@@ -14,5 +14,7 @@ Basic item generator itemgenerator.c
 SDL audio output
 Possibly SDL keyboard I/O
 Character levels
+Saving stats and items
+
 
 

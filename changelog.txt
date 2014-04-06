@@ -7,8 +7,11 @@ Ver 0.02
 Improvements and bug fixes in game.c
 Work started on simple fight simulation intelligence.c
 
-Ver 0.03 //Coming out on monday 7/4/14
+Ver 0.03
 Basic item generator itemgenerator.c
+
+Ver 0.04 //Coming out on /4/14
+Nothing for now
 
 --Coming Soon-- 
 SDL audio output

@@ -11,6 +11,11 @@ else if(option == 2){
     printf("What difficulty level you want to play:\n1.Easy\n2.Normal\n3.Hard\n4.HELL!!\n\n");
     main();
 }
+else if (option == 3){
+        printf("Work in progress\n");
+        main();
+
+}
 else{
 
 }

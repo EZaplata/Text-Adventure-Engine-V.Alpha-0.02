@@ -11,6 +11,9 @@ Ver 0.03
 Basic item generator itemgenerator.c
 Color output for different items
 
+Ver 0.031
+Few improvements in itemgenrator.c
+
 Ver 0.04 //Coming out on /4/14
 Nothing for now
 

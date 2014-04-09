@@ -7,14 +7,12 @@ int itemgenerator(){
     //Need to find better way of generating random numbers
 srand(time(NULL));
 int weapontype = rand() % 3;
-int sword = 0;
-int axe = 0;
+int sword = 0, axe = 0;
 int noitem = 0;
-int damage = 0;
-int atspeed = 0;
+int damage = 0, atspeed = 0;
 int type = 0;
-int ice = 0;
-int fire = 0;
+int ice = 0, fire = 0;
+
   HANDLE h = GetStdHandle ( STD_OUTPUT_HANDLE );
   WORD wOldColorAttrs;
   CONSOLE_SCREEN_BUFFER_INFO csbiInfo;
@@ -44,7 +42,8 @@ if(sword == 1){
         printf("Fire ");
         fire = (rand() % 7) + 1;
     }
-    printf("sword \n");
+    (type == 1 || type == 2)?
+    printf("sword \n"):printf("Sword \n");
     SetConsoleTextAttribute ( h, wOldColorAttrs);
     //Chances of damage stat
     damage = (rand() % 7) + 1;
@@ -70,7 +69,8 @@ else if(axe == 1){
         printf("Fire ");
         fire = (rand() % 7) + 1;
     }
-    printf("axe \n");
+    (type == 1 || type == 2)?
+    printf("axe \n"):printf("Axe \n");
     SetConsoleTextAttribute ( h, wOldColorAttrs);
     damage = (rand() % 10) + 1;
     printf("Damage:%d\n", damage);
@@ -88,4 +88,5 @@ else if(noitem == 1){
 gameworld();
 
 }
+
 

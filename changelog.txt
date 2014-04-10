@@ -15,7 +15,7 @@ Ver 0.031
 Few improvements in itemgenrator.c
 
 Ver 0.04 //Coming out on /4/14
-Nothing for now
+Stats are working in fight simulation
 
 --Coming Soon-- 
 SDL audio output

@@ -17,6 +17,8 @@ Few improvements in itemgenrator.c
 Ver 0.04 //Coming out on /4/14
 Stats are working in fight simulation
 Stats are moved to different file player.c
+More balanced item generator
+Pre-generated weapons
 
 --Coming Soon-- 
 SDL audio output

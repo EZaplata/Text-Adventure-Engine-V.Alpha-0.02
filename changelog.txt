@@ -14,7 +14,7 @@ Color output for different items
 Ver 0.031
 Few improvements in itemgenrator.c
 
-Ver 0.04 //Coming out on /4/14
+Ver 0.04 //Coming out on 28/4/14
 Stats are working in fight simulation
 Player stats are moved to different file player.c
 Monster stats are moved to different file monster.c
@@ -22,9 +22,10 @@ Fight system is working
 New statistic defence
 More balanced item generator
 Pre-generated weapons
-Work started on character levels
+Character levels
 
 --Coming Soon-- 
+Terrain
 Saving stats and items
 Equipment
 Multiplayer option

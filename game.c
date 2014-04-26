@@ -11,10 +11,6 @@ int warrior;
 int rogue;
 int mage;
 int tank;
-//Do not delete fix the problem with wrong stat points numbers.
-int statfix = 1;
-int statfix2 = 1;
-//Do not delete fix the problem with wrong stat points numbers.
 printf("Choose your first name:\n");
 scanf("%s", &pfname);
 printf("Choose your second name:\n");

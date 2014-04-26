@@ -24,10 +24,12 @@ More balanced item generator
 Pre-generated weapons
 Character levels
 
---Coming Soon-- 
+Ver 0.05 //Coming out on /6/14
 Terrain
-Saving stats and items
 Equipment
+
+--Coming Soon-- 
+Saving stats and items
 Multiplayer option
 Possibly SDL audio output
 Possibly SDL keyboard I/O

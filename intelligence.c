@@ -1,24 +1,64 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "stats.h"
 
-void intelligence(void){
-//Test intelligence str,agi,hp,mp
-FILE *file_ptr;
-int monster[4] = {10, 10, 10, 10};
+int intelligence(){
+srand(time(NULL));
 int poption;
-int str[1];
-int agi[1];
-int hp[1];
-int mp[1];
-//Can't bring the variable from game.c
-file_ptr = fopen("savestr.txt", "r");
-fgets(str,1,file_ptr);
-printf("Chose your action:\n 1.Attack 2.Defend");
+int moption;
+int phits, mhits;
+int pdam, mdam;
+int escape = 0;
+if(hp <= 0){
+    mhp = 30;
+    printf("You lost\n");
+    gameworld();
+}
+if(mhp <= 0){
+    printf("You won\n");
+    mhp = 30;
+    exp += 1;
+    player();
+}
+printf("Chose your action:\n 1.Attack 2.Magic attack\n");
 scanf("%d", &poption);
-if(poption == 1){
-monster[2] = monster[2] - str[1];
+//How many hits
+phits = agi / 3;
+//Damage done by normal attack
+if (poption == 1){
+    (phits == 1)?
+    printf("You have hit once\n"):printf("You have hit %d times\n", phits);
+    //Damage amount
+    pdam = str * phits;
+    mhp -= (pdam - mdef);
+    printf("Monsters health is:%d\n", mhp);
 }
-if(monster[2] <= str){
-printf("You won\n");
-gameworld();
+else if (poption == 2){
+    //Damage done by magic attack
+    mhp -= (mp - mmp);
 }
+if(mhp <= 0){
+    printf("You won\n");
+    exp += 1;
+    mhp = 30;
+    player();
 }
+    if (mhp > 0){
+        moption = rand() % 2;
+        if (moption == 0 || moption == 1){
+            hp = hp - (mstr - def);
+            printf("Your current health is: %d\n", hp);
+            escape++;
+            intelligence();
+        }
+        if (moption == 2 && escape == 0 ){
+            printf("Monster has escaped\n");
+            gameworld();
+        }
+    }
+
+
+
+}
+

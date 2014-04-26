@@ -23,6 +23,7 @@ New statistic defence
 More balanced item generator
 Pre-generated weapons
 Character levels
+Moved action.c to main.c
 
 Ver 0.05 //Coming out on /6/14
 Terrain

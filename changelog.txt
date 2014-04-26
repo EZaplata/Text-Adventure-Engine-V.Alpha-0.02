@@ -14,7 +14,7 @@ Color output for different items
 Ver 0.031
 Few improvements in itemgenrator.c
 
-Ver 0.04 //Coming out on 28/4/14
+Ver 0.04
 Stats are working in fight simulation
 Player stats are moved to different file player.c
 Monster stats are moved to different file monster.c

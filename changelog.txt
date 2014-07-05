@@ -25,7 +25,7 @@ Pre-generated weapons
 Character levels
 Moved action.c to main.c
 
-Ver 0.05 //Coming out on /6/14
+Ver 0.05 //Update canceled project will be restarted under new name and rebuilded.
 Terrain
 Equipment
 
